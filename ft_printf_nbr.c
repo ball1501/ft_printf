@@ -6,7 +6,7 @@
 /*   By: wngamkri <wngamkri@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/04 12:59:02 by wngamkri          #+#    #+#             */
-/*   Updated: 2026/09/04 13:13:55 by wngamkri         ###   ########.fr       */
+/*   Updated: 2026/09/07 11:11:32 by wngamkri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ int	ft_putnbr_rtn(int n)
 	return (len);
 }
 
-unsigned int	ft_putunsigned_rtn(unsigned int n)
+int	ft_putunsigned_rtn(unsigned int n)
 {
 	int	len;
 
