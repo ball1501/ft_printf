@@ -6,7 +6,7 @@
 /*   By: wngamkri <wngamkri@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/07 10:09:07 by wngamkri          #+#    #+#             */
-/*   Updated: 2026/09/07 11:09:22 by wngamkri         ###   ########.fr       */
+/*   Updated: 2026/09/07 13:08:58 by wngamkri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ int	ft_printf(const char *format, ...)
 	va_start(args, format);
 	while (format[i])
 	{
-		if (format[i] == '%')
+		if (format[i] == '%' && format[i + 1])
 		{
 			i++;
 			total_len += ft_formats(args, format[i]);
