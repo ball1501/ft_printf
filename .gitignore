@@ -4,3 +4,4 @@ tester/
 .DS_Store
 *.pdf
 libft_tester/
+printfTester/

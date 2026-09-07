@@ -6,15 +6,15 @@
 /*   By: wngamkri <wngamkri@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/04 09:23:52 by wngamkri          #+#    #+#             */
-/*   Updated: 2026/09/07 12:44:50 by wngamkri         ###   ########.fr       */
+/*   Updated: 2026/09/07 15:54:41 by wngamkri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int ft_putchar_rtn(int c)
+int	ft_putchar_rtn(int c)
 {
-    return (write(1, &c, 1));
+	return (write(1, &c, 1));
 }
 
 int	ft_putstr_rtn(char *str)
