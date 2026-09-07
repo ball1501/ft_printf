@@ -3,3 +3,4 @@ tester/
 *.o
 .DS_Store
 *.pdf
+libft_tester/
