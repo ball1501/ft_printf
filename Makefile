@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: wngamkri <wngamkri@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2026/09/08 10:06:02 by wngamkri          #+#    #+#              #
+#    Updated: 2026/09/08 10:06:03 by wngamkri         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 NAME        = libftprintf.a
 
 CC          = cc
@@ -36,7 +48,4 @@ fclean: clean
 
 re: fclean all
 
-# Rule สำหรับ Bonus (เตรียมไว้ใช้สำหรับส่วนถัดไป)
-bonus: all
-
-.PHONY: all clean fclean re bonus
+.PHONY: all clean fclean re
